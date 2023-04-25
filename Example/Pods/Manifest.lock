@@ -1,0 +1,16 @@
+PODS:
+  - FoxEventLogger (0.1.0)
+
+DEPENDENCIES:
+  - FoxEventLogger (from `../`)
+
+EXTERNAL SOURCES:
+  FoxEventLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FoxEventLogger: b174d9efcd6101c4e003da5648fb7dd9ae2f927f
+
+PODFILE CHECKSUM: b65bc2acfc15692009e53f75aaf2ae7db20a8f4c
+
+COCOAPODS: 1.11.3

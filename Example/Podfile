@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FoxEventLogger_Example' do
+  pod 'FoxEventLogger', :path => '../'
+
+  target 'FoxEventLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

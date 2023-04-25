@@ -1,0 +1,6 @@
+framework module FoxEventLogger {
+  umbrella header "FoxEventLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

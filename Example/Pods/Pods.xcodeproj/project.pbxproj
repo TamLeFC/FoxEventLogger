@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC5CEC555E18668B77A469BB00DCD87 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB549F7FF391559AB243B1BDDB9BCE /* ReplaceMe.swift */; };
+		18A054548F0599B3EC3B61B53A222143 /* FoxEventLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75777A7439D16246E5D604B995981A0D /* FoxEventLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A3A1F06EDB8704F3A7924904EA2FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		443A1F0E428473119636B89C426BBC95 /* Pods-FoxEventLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7871D86DD6717B4F5A946776EE3EDF /* Pods-FoxEventLogger_Example-dummy.m */; };
+		5B73B8A883D1A24F2D88E7F4E689C384 /* Pods-FoxEventLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B1B9186EA093F8743FCDF8AD412F56 /* Pods-FoxEventLogger_Tests-dummy.m */; };
+		5C8285B25D2A4D608A62DEA8E7CCADC8 /* Pods-FoxEventLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE59F9B857E8ED68F3884EDD30462DE /* Pods-FoxEventLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		952DD5F89D319067777CFF3A8359116A /* FoxEventLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B6A8E5826CCD069C2C60422782B133 /* FoxEventLogger-dummy.m */; };
+		B1834699741FAD9D02E7FB1F2DEB551C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DBF1288B1ACE48805161764012224A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E2EE158175E6C4114280B3BC73EBC29A /* Pods-FoxEventLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 926F4B6F6266562C61E5ADAB767E48BA /* Pods-FoxEventLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D111D434FD3F07AEC2DCB43851ED7EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51DA813F64CE176FB5222F7D2A0ACD56;
+			remoteInfo = "Pods-FoxEventLogger_Example";
+		};
+		E8EAA5114E6AD537C3A63EB19C8C507D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60CFC568A081D0A8E465436AEFFB89C;
+			remoteInfo = FoxEventLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15EF9ABE814D7BA64E149655A755AA08 /* Pods-FoxEventLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoxEventLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2216578ABD750083BF57B510F24C03A5 /* FoxEventLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FoxEventLogger-Info.plist"; sourceTree = "<group>"; };
+		22BB98E21B6B049C9CC0E58CF476937C /* Pods-FoxEventLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoxEventLogger_Example.modulemap"; sourceTree = "<group>"; };
+		2908878F98AEDB58DB9905A36CD9FABD /* FoxEventLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoxEventLogger.debug.xcconfig; sourceTree = "<group>"; };
+		30B6A8E5826CCD069C2C60422782B133 /* FoxEventLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoxEventLogger-dummy.m"; sourceTree = "<group>"; };
+		485D82765DBBF3C83FEE1EEB3F88E08D /* Pods-FoxEventLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoxEventLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		4ACB549F7FF391559AB243B1BDDB9BCE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FoxEventLogger/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4B43B3346FD30A4E7CE17039AC8AD94A /* FoxEventLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FoxEventLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5037573AC2E6D5A421A49FB93828E88C /* Pods-FoxEventLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoxEventLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51CB9F0D81637E7A6142910775AEAB87 /* Pods-FoxEventLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoxEventLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5323C91172EE9754327CD69619311DDE /* Pods-FoxEventLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoxEventLogger_Tests-Info.plist"; sourceTree = "<group>"; };
+		5ECE6506DC8580BDAF61A8AAC85548AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F53129BAC4A371FC4DCECD7F765A567 /* Pods-FoxEventLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoxEventLogger_Example-Info.plist"; sourceTree = "<group>"; };
+		721829A1998965E19E8E8BEEAC157E84 /* FoxEventLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoxEventLogger-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		732B74432656B1F99C4D3D0861555D70 /* Pods-FoxEventLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoxEventLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75777A7439D16246E5D604B995981A0D /* FoxEventLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoxEventLogger-umbrella.h"; sourceTree = "<group>"; };
+		8FBFAC1515CF90461CDEE733EDAB945D /* FoxEventLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoxEventLogger.modulemap; sourceTree = "<group>"; };
+		926F4B6F6266562C61E5ADAB767E48BA /* Pods-FoxEventLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoxEventLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		99DB462FCB7A1D502DEADEA84C118B76 /* FoxEventLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoxEventLogger; path = FoxEventLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A74BFFBDDB768D1B52076273C01D1D3A /* Pods-FoxEventLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxEventLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A817442DCA66FAE7F5EF50E0E0ECADBA /* Pods-FoxEventLogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoxEventLogger_Tests"; path = Pods_FoxEventLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7871D86DD6717B4F5A946776EE3EDF /* Pods-FoxEventLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoxEventLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		ABE59F9B857E8ED68F3884EDD30462DE /* Pods-FoxEventLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoxEventLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B3074BAFB56FFE933C606CBC47353C10 /* Pods-FoxEventLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoxEventLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6E7C9300C14B59DE02933DE6BA3A499 /* Pods-FoxEventLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxEventLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CA314663A306D3ABA50D2D2850F6D1F2 /* FoxEventLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoxEventLogger.release.xcconfig; sourceTree = "<group>"; };
+		E27B0C5B9FF785499A90BB0861B1931A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E5B6C982C02537A0B8AE7E86335E5BD9 /* Pods-FoxEventLogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoxEventLogger_Example"; path = Pods_FoxEventLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED023FE524060729E768538D82B7958 /* Pods-FoxEventLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxEventLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F3AB03B97EB8AE1173C0ABE2EA8CF5FD /* Pods-FoxEventLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoxEventLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F5B1B9186EA093F8743FCDF8AD412F56 /* Pods-FoxEventLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoxEventLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		338DB19860CE501D1C6DC775A6558C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1834699741FAD9D02E7FB1F2DEB551C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA7FBBA564A45EF8E89C03C54FF9286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A3A1F06EDB8704F3A7924904EA2FD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3109DB3422E6128F653D26B13648444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF1288B1ACE48805161764012224A39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B93964FF4BC1AB3632FC794CE0CB270 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFAC1515CF90461CDEE733EDAB945D /* FoxEventLogger.modulemap */,
+				30B6A8E5826CCD069C2C60422782B133 /* FoxEventLogger-dummy.m */,
+				2216578ABD750083BF57B510F24C03A5 /* FoxEventLogger-Info.plist */,
+				721829A1998965E19E8E8BEEAC157E84 /* FoxEventLogger-prefix.pch */,
+				75777A7439D16246E5D604B995981A0D /* FoxEventLogger-umbrella.h */,
+				2908878F98AEDB58DB9905A36CD9FABD /* FoxEventLogger.debug.xcconfig */,
+				CA314663A306D3ABA50D2D2850F6D1F2 /* FoxEventLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FoxEventLogger";
+			sourceTree = "<group>";
+		};
+		2C6573C95D44D3CD22EC573574ED036B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF28D6396E0B164F3ADEC4CC3658F72E /* FoxEventLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4B29EB1D1E5724EE164D6AA19F118BA5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8C246AB2D653A03F8C4AA8F60949B35 /* Pods-FoxEventLogger_Example */,
+				7B67819DC2626A761BAD2B5485B7BB78 /* Pods-FoxEventLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B67819DC2626A761BAD2B5485B7BB78 /* Pods-FoxEventLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				485D82765DBBF3C83FEE1EEB3F88E08D /* Pods-FoxEventLogger_Tests.modulemap */,
+				51CB9F0D81637E7A6142910775AEAB87 /* Pods-FoxEventLogger_Tests-acknowledgements.markdown */,
+				732B74432656B1F99C4D3D0861555D70 /* Pods-FoxEventLogger_Tests-acknowledgements.plist */,
+				F5B1B9186EA093F8743FCDF8AD412F56 /* Pods-FoxEventLogger_Tests-dummy.m */,
+				5323C91172EE9754327CD69619311DDE /* Pods-FoxEventLogger_Tests-Info.plist */,
+				ABE59F9B857E8ED68F3884EDD30462DE /* Pods-FoxEventLogger_Tests-umbrella.h */,
+				A74BFFBDDB768D1B52076273C01D1D3A /* Pods-FoxEventLogger_Tests.debug.xcconfig */,
+				C6E7C9300C14B59DE02933DE6BA3A499 /* Pods-FoxEventLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-FoxEventLogger_Tests";
+			path = "Target Support Files/Pods-FoxEventLogger_Tests";
+			sourceTree = "<group>";
+		};
+		AAE909C8EAA8FDD20A65BFDF49F72D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DB462FCB7A1D502DEADEA84C118B76 /* FoxEventLogger */,
+				E5B6C982C02537A0B8AE7E86335E5BD9 /* Pods-FoxEventLogger_Example */,
+				A817442DCA66FAE7F5EF50E0E0ECADBA /* Pods-FoxEventLogger_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF28D6396E0B164F3ADEC4CC3658F72E /* FoxEventLogger */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB549F7FF391559AB243B1BDDB9BCE /* ReplaceMe.swift */,
+				EAE9B2B1F19DB44E0F8EF39AA128504F /* Pod */,
+				2B93964FF4BC1AB3632FC794CE0CB270 /* Support Files */,
+			);
+			name = FoxEventLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C8C246AB2D653A03F8C4AA8F60949B35 /* Pods-FoxEventLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				22BB98E21B6B049C9CC0E58CF476937C /* Pods-FoxEventLogger_Example.modulemap */,
+				5037573AC2E6D5A421A49FB93828E88C /* Pods-FoxEventLogger_Example-acknowledgements.markdown */,
+				B3074BAFB56FFE933C606CBC47353C10 /* Pods-FoxEventLogger_Example-acknowledgements.plist */,
+				AB7871D86DD6717B4F5A946776EE3EDF /* Pods-FoxEventLogger_Example-dummy.m */,
+				15EF9ABE814D7BA64E149655A755AA08 /* Pods-FoxEventLogger_Example-frameworks.sh */,
+				5F53129BAC4A371FC4DCECD7F765A567 /* Pods-FoxEventLogger_Example-Info.plist */,
+				926F4B6F6266562C61E5ADAB767E48BA /* Pods-FoxEventLogger_Example-umbrella.h */,
+				EED023FE524060729E768538D82B7958 /* Pods-FoxEventLogger_Example.debug.xcconfig */,
+				F3AB03B97EB8AE1173C0ABE2EA8CF5FD /* Pods-FoxEventLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-FoxEventLogger_Example";
+			path = "Target Support Files/Pods-FoxEventLogger_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2C6573C95D44D3CD22EC573574ED036B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AAE909C8EAA8FDD20A65BFDF49F72D1F /* Products */,
+				4B29EB1D1E5724EE164D6AA19F118BA5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAE9B2B1F19DB44E0F8EF39AA128504F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4B43B3346FD30A4E7CE17039AC8AD94A /* FoxEventLogger.podspec */,
+				E27B0C5B9FF785499A90BB0861B1931A /* LICENSE */,
+				5ECE6506DC8580BDAF61A8AAC85548AD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02DFD7EB177D1E5E92548E7D3E50DECA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8285B25D2A4D608A62DEA8E7CCADC8 /* Pods-FoxEventLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8D2412D0A98BEA9B39B79C1A7FCE98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EE158175E6C4114280B3BC73EBC29A /* Pods-FoxEventLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C6E6213E64C4AAB8356E7811AF05C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A054548F0599B3EC3B61B53A222143 /* FoxEventLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		51DA813F64CE176FB5222F7D2A0ACD56 /* Pods-FoxEventLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3F392F290B351BA4C402A462A479AA /* Build configuration list for PBXNativeTarget "Pods-FoxEventLogger_Example" */;
+			buildPhases = (
+				5C8D2412D0A98BEA9B39B79C1A7FCE98 /* Headers */,
+				7CBD4C737F9DFA4D239B91E57122AC9C /* Sources */,
+				D3109DB3422E6128F653D26B13648444 /* Frameworks */,
+				6F20019519D2FC39AA8F7C82A39E961B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F47490F6E1454A3E7740EE9415E4F73A /* PBXTargetDependency */,
+			);
+			name = "Pods-FoxEventLogger_Example";
+			productName = Pods_FoxEventLogger_Example;
+			productReference = E5B6C982C02537A0B8AE7E86335E5BD9 /* Pods-FoxEventLogger_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B104512756DEDEFEB6C7F745A72CE7D1 /* Pods-FoxEventLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FCB93FB2B191E432A7DD26C094F9D7 /* Build configuration list for PBXNativeTarget "Pods-FoxEventLogger_Tests" */;
+			buildPhases = (
+				02DFD7EB177D1E5E92548E7D3E50DECA /* Headers */,
+				97C5DAF8C76FDABE599B0C15A6DE46AD /* Sources */,
+				338DB19860CE501D1C6DC775A6558C8B /* Frameworks */,
+				0FD66CD3DA5DC6FA3FE50C9E057572E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C5ABEA1E0F8A9C226F99E6984C33EF /* PBXTargetDependency */,
+			);
+			name = "Pods-FoxEventLogger_Tests";
+			productName = Pods_FoxEventLogger_Tests;
+			productReference = A817442DCA66FAE7F5EF50E0E0ECADBA /* Pods-FoxEventLogger_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F60CFC568A081D0A8E465436AEFFB89C /* FoxEventLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601CF55606AD620A52B408D8CAC08DD8 /* Build configuration list for PBXNativeTarget "FoxEventLogger" */;
+			buildPhases = (
+				AC9C6E6213E64C4AAB8356E7811AF05C /* Headers */,
+				1FEC71747CF0D55F813C407D17043671 /* Sources */,
+				8BA7FBBA564A45EF8E89C03C54FF9286 /* Frameworks */,
+				A4A09FC381293A09D6DAAA11C63D1BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoxEventLogger;
+			productName = FoxEventLogger;
+			productReference = 99DB462FCB7A1D502DEADEA84C118B76 /* FoxEventLogger */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AAE909C8EAA8FDD20A65BFDF49F72D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F60CFC568A081D0A8E465436AEFFB89C /* FoxEventLogger */,
+				51DA813F64CE176FB5222F7D2A0ACD56 /* Pods-FoxEventLogger_Example */,
+				B104512756DEDEFEB6C7F745A72CE7D1 /* Pods-FoxEventLogger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FD66CD3DA5DC6FA3FE50C9E057572E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F20019519D2FC39AA8F7C82A39E961B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A09FC381293A09D6DAAA11C63D1BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEC71747CF0D55F813C407D17043671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952DD5F89D319067777CFF3A8359116A /* FoxEventLogger-dummy.m in Sources */,
+				0AC5CEC555E18668B77A469BB00DCD87 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBD4C737F9DFA4D239B91E57122AC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443A1F0E428473119636B89C426BBC95 /* Pods-FoxEventLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C5DAF8C76FDABE599B0C15A6DE46AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B73B8A883D1A24F2D88E7F4E689C384 /* Pods-FoxEventLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3C5ABEA1E0F8A9C226F99E6984C33EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FoxEventLogger_Example";
+			target = 51DA813F64CE176FB5222F7D2A0ACD56 /* Pods-FoxEventLogger_Example */;
+			targetProxy = D111D434FD3F07AEC2DCB43851ED7EA1 /* PBXContainerItemProxy */;
+		};
+		F47490F6E1454A3E7740EE9415E4F73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoxEventLogger;
+			target = F60CFC568A081D0A8E465436AEFFB89C /* FoxEventLogger */;
+			targetProxy = E8EAA5114E6AD537C3A63EB19C8C507D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4EDEE9E6C0CF195EBE51EC62DCF8BEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED023FE524060729E768538D82B7958 /* Pods-FoxEventLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoxEventLogger_Example/Pods-FoxEventLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoxEventLogger_Example/Pods-FoxEventLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F85D98598742920B4EEAD2F3484D39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA314663A306D3ABA50D2D2850F6D1F2 /* FoxEventLogger.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoxEventLogger/FoxEventLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoxEventLogger/FoxEventLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoxEventLogger/FoxEventLogger.modulemap";
+				PRODUCT_MODULE_NAME = FoxEventLogger;
+				PRODUCT_NAME = FoxEventLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3B84E66AF1DF7E393909F631A7A3A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2908878F98AEDB58DB9905A36CD9FABD /* FoxEventLogger.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoxEventLogger/FoxEventLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoxEventLogger/FoxEventLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoxEventLogger/FoxEventLogger.modulemap";
+				PRODUCT_MODULE_NAME = FoxEventLogger;
+				PRODUCT_NAME = FoxEventLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0ECA3077BD08C35D9A697F266049C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AB03B97EB8AE1173C0ABE2EA8CF5FD /* Pods-FoxEventLogger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoxEventLogger_Example/Pods-FoxEventLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoxEventLogger_Example/Pods-FoxEventLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1CA7456966D5964A1282BFD4CB2F971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E7C9300C14B59DE02933DE6BA3A499 /* Pods-FoxEventLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoxEventLogger_Tests/Pods-FoxEventLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoxEventLogger_Tests/Pods-FoxEventLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCE765EA696273BD3124595A884FD844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74BFFBDDB768D1B52076273C01D1D3A /* Pods-FoxEventLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoxEventLogger_Tests/Pods-FoxEventLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoxEventLogger_Tests/Pods-FoxEventLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601CF55606AD620A52B408D8CAC08DD8 /* Build configuration list for PBXNativeTarget "FoxEventLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B84E66AF1DF7E393909F631A7A3A22 /* Debug */,
+				7F85D98598742920B4EEAD2F3484D39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3F392F290B351BA4C402A462A479AA /* Build configuration list for PBXNativeTarget "Pods-FoxEventLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDEE9E6C0CF195EBE51EC62DCF8BEC5 /* Debug */,
+				E0ECA3077BD08C35D9A697F266049C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FCB93FB2B191E432A7DD26C094F9D7 /* Build configuration list for PBXNativeTarget "Pods-FoxEventLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE765EA696273BD3124595A884FD844 /* Debug */,
+				F1CA7456966D5964A1282BFD4CB2F971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
